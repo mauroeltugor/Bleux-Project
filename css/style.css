@@ -3,7 +3,7 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
-.nav_bar{
+.bar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -11,7 +11,7 @@ body{
     background: #1E172F;
     color: rgb(255, 255, 255);
 }
-.nav_bar nav{
+.bar nav{
     display: flex;
     justify-content: space-between;
     width: 30%;
@@ -19,7 +19,7 @@ body{
 ul li.ligray{
     color: gray;
 }
-.nav_bar ul{
+.bar ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -34,7 +34,7 @@ nav ul button{
     border-radius: 5px;
     background: linear-gradient(to right,#883fd5,#0b7cd5);
 }
-.content1{
+.contenido1{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -110,14 +110,14 @@ nav ul button{
     width: 18%;
     height: 66%;
 }
-.content2{
+.contenido2{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F1F2F7;
 }
-.content2 h1{
+.contenido2 h1{
     width: 100%;
     color: #F41486;
     font-size: 80px;
@@ -176,13 +176,13 @@ article h1{
     margin: 18px;
     color: white;
 }
-article p.part{
+article p.plans{
     width: 100%;
     font-size: 20px;
     margin-top: 24px;
     color: white;
 }
-.box{
+.caja{
     width: 18%;
     height: 558px;
     background-color: rgb(255, 255, 255);
@@ -190,41 +190,41 @@ article p.part{
     border-radius: 5px;
     margin-bottom: 60px;
 }
-.box img{
+.caja img{
     width: 25%;
 }
-.box ul{
+.caja ul{
     margin-top: 20%;
     color: black;
     list-style: url(../images/blackChulito.png);
 }
-.box ul .star{
-    list-style: url(../images/blackStar.png );
+.caja ul .estrella{
+    list-style: url(../images/blackestrella.png );
 }
-.box ul .starPink{
-    list-style: url(../images/pinkStar.png );
+.caja ul .Erosada{
+    list-style: url(../images/pinkestrella.png );
 }
-.box ul .chulitoPink{
+.caja ul .Lrosado{
     list-style: url(../images/pinkChulito.png );
 }
-.box ul .x{
+.caja ul .x{
     list-style: url(../images/xBlack.png );
 }
 
-.box h3{
+.caja h3{
     color: #000000;
     margin-top: 2%;
     margin-bottom: 2%;
 }
-.box h3.lite{
+.caja h3.lite{
     color: #F41486;
     margin-top: 2%;
     margin-bottom: 2%;
 }
-.box p{
+.caja p{
     margin-top: 10%
 }
-.box p.p1{
+.caja p.p1{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -237,14 +237,14 @@ article p.part{
 p.p1 sup{
     font-size: 50%;
 }
-.box .but,.but1{
+.caja .but,.but1{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: #F5F5F5;
     margin-top: 20%;
     
 }
-.box button{
+.caja button{
     background-color: #2E2550;
     color: white;
     border: none;
@@ -256,7 +256,7 @@ p.p1 sup{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.box .buto1{
+.caja .buto1{
     background: linear-gradient(to right,#EC5FA7,#F31D8A);
     color: white;
     border: none;
@@ -271,7 +271,7 @@ footer{
     width: 100%;
     height: 20%;
 }
-footer .finalList{
+footer .final{
     display: flex;
     justify-content: space-between;
     width: 30%;
@@ -280,7 +280,7 @@ footer p{
     padding: 2%;
     margin: 0;
 }
-.finalList ul{
+.final ul{
     display: flex;
     align-items: center;
     margin: 0;
@@ -289,14 +289,14 @@ footer p{
     width: 100%;
     list-style: none;
 }
-.finalList ul li{
+.final ul li{
     margin: 1%;
     padding: 1%;
 }
 
 @media screen and (max-width: 1200px){
 
-    .nav_bar{
+    .bar{
         display: flex;
         flex-direction: row;
         padding: 0;
@@ -305,12 +305,12 @@ footer p{
         background: #1E172F;
         color: rgb(255, 255, 255);
     }
-    .nav_bar nav{
+    .bar nav{
         display: block;
         justify-content: space-between;
         width: 30%;
     }
-    .nav_bar ul{
+    .bar ul{
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -318,7 +318,7 @@ footer p{
         list-style: none;
         padding: 0;
     }
-    .nav_bar ul li{
+    .bar ul li{
         padding-left: 4%;
         padding-right: 4%;
         margin: 0;
@@ -365,10 +365,10 @@ footer p{
         width: 100%;
         height: 40%;
     }
-    article p.part{
+    article p.plans{
         width: 90%;
     }
-    .box{
+    .caja{
         width: 31%;
         height: 558px;
     }
@@ -376,7 +376,7 @@ footer p{
 
 @media screen and (max-width: 992px){
 
-    .nav_bar{
+    .bar{
         display: flex;
         flex-direction: row;
         padding: 0;
@@ -385,12 +385,12 @@ footer p{
         background: #1E172F;
         color: rgb(255, 255, 255);
     }
-    .nav_bar nav{
+    .bar nav{
         display: block;
         justify-content: space-between;
         width: 30%;
     }
-    .nav_bar ul{
+    .bar ul{
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -398,7 +398,7 @@ footer p{
         list-style: none;
         padding: 0;
     }
-    .nav_bar ul li{
+    .bar ul li{
         padding-left: 4%;
         padding-right: 4%;
         margin: 0;
@@ -445,10 +445,10 @@ footer p{
         width: 100%;
         height: 40%;
     }
-    article p.part{
+    article p.plans{
         width: 90%;
     }
-    .box{
+    .caja{
         width: 31%;
         height: 558px;
     }
@@ -456,7 +456,7 @@ footer p{
 
 @media screen and (max-width: 768px){
 
-    .nav_bar{
+    .bar{
         display: flex;
         flex-direction: row;
         padding: 0;
@@ -465,12 +465,12 @@ footer p{
         background: #1E172F;
         color: rgb(255, 255, 255);
     }
-    .nav_bar nav{
+    .bar nav{
         display: block;
         justify-content: space-between;
         width: 30%;
     }
-    .nav_bar ul{
+    .bar ul{
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -478,7 +478,7 @@ footer p{
         list-style: none;
         padding: 0;
     }
-    .nav_bar ul li{
+    .bar ul li{
         padding-left: 4%;
         padding-right: 4%;
         margin: 0;
@@ -525,10 +525,10 @@ footer p{
         width: 100%;
         height: 40%;
     }
-    article p.part{
+    article p.plans{
         width: 90%;
     }
-    .box{
+    .caja{
         width: 31%;
         height: 558px;
     }
@@ -539,28 +539,28 @@ footer p{
         margin: 0;
         padding: 0;
     }
-    .nav_bar img{
+    .bar img{
         width: 26%;
         height: 4rem;
     }
-    .nav_bar ul li{
+    .bar ul li{
         padding: 0;
         margin: 0;
     }
-    .nav_bar{
+    .bar{
         display: flex;
         width: 100%;
         background: #1E172F;
         color: rgb(255, 255, 255);
         padding: 0;
     }
-    .nav_bar nav{
+    .bar nav{
         display: block;
         width: 100%;
         padding: 0;
         margin: 0;
     }
-    .nav_bar ul{
+    .bar ul{
         display: flex;
         width: 100%;
         list-style: none;
@@ -628,13 +628,13 @@ footer p{
         padding-left: 8%;
         padding-right: 8%;
     }
-    .content2{
+    .contenido2{
         width: 100%;
         display: flex;
         padding: 0;
         margin: 0;
     }
-    .content2 h1{
+    .contenido2 h1{
         width: 80%;
         margin: 0;
         font-size: 40px;
@@ -672,7 +672,7 @@ footer p{
         padding: 0;
         margin: 0;
     }
-    article p.part{
+    article p.plans{
         width: 90%;
         margin-top: 4%;
         margin-left: 4%;
@@ -680,7 +680,7 @@ footer p{
         line-height: 28px;
         padding: 0;
     }
-    .box{
+    .caja{
         width: 80%;
         height: 100%;
         background-color: rgb(255, 255, 255);
@@ -702,7 +702,7 @@ footer p{
         padding: 0;
         text-align: center;
     }
-    .finalList ul{
+    .final ul{
         display: flex;
         width: 100%;
         margin-left: 100%;
